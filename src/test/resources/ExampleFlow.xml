@@ -1,0 +1,134 @@
+<suite name="ExampleFlow">
+
+	<test name="login">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestAuth">
+				<methods>
+					<include name=".*authLogin" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getProfile">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*getProfile" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="selfStatus">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*selfStatus" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+
+	<test name="getRaces">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*getRaces" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getTariff">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestTariff">
+				<methods>
+					<include name=".*getTariff" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="family">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*family" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="languages">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*languages" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getPaymentToken">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestPayment">
+				<methods>
+					<include name=".*getPaymentToken" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getPaymentList">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestPayment">
+				<methods>
+					<include name=".*getPaymentList" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getPatientHistory">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestRequest">
+				<methods>
+					<include name=".*getPatientHistory" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="selfStatus2">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestUser">
+				<methods>
+					<include name=".*selfStatus" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getCount">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestMessage">
+				<methods>
+					<include name=".*getCount" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test name="getNearestNurses">
+		<classes>
+			<class name="org.bl.json.jersey.test.TestParent">
+				<methods>
+					<include name=".*getNearestNurses" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+</suite>
